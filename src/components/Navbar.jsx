@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Logo from '../assets/logo_shivam.png'
 import { FaChevronRight } from "react-icons/fa";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { ResponsiveMenu } from './ResponsiveMenu';
@@ -14,7 +13,7 @@ export const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto px-4 md:px-0">
         {/* Logo Section */}
         <div>
-          <a href="/"><img src={Logo} alt="logo" className='w-[150px]' /></a>
+          <a href="/"><p className='md:text-3xl text-2xl font-bold mb-4 text-blue-400 my-5'>Code<b className='text-white'>Shivam</b></p></a>
         </div>
         {/* Menu section */}
         <nav className='hidden md:block'>

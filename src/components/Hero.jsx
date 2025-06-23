@@ -1,10 +1,13 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import { SiLeetcode } from "react-icons/si";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Profile from '../assets/profile.jpg'
 import { motion } from 'framer-motion';
 import { GiDuration } from 'react-icons/gi';
+import './Hero.css'
+import resume from '../assets/shivam_resume_dev.pdf'
 
 export const Hero = () => {
   return (
@@ -43,12 +46,12 @@ export const Hero = () => {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.4, delay: 0.5 }}
-            className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]'><MdOutlineFileDownload className='w-5 h-5' /> Download CV</motion.button>
+            className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]'><MdOutlineFileDownload className='w-5 h-5' /><a href={resume} target='_blank'> Download CV </a></motion.button>
           <div className="flex gap-3 text-2xl transition-all mt-5 md:mt-0">
-            <FaFacebook className='hover:text-blue-400' />
-            <FaInstagram className='hover:text-blue-400' />
-            <FaLinkedin className='hover:text-blue-400' />
-            <FaSquareXTwitter className='hover:text-blue-400' />
+            <a href="https://github.com/shivamEr"><FaGithub className='hover:text-blue-400' /></a>
+            <a href="https://www.linkedin.com/in/code-shivam"><FaLinkedin className='hover:text-blue-400' /></a>
+            <a href="https://leetcode.com/u/code-shivam"><SiLeetcode className='hover:text-blue-400' /></a>
+            <a href="https://x.com/codeXshivam"><FaSquareXTwitter className='hover:text-blue-400' /></a>
           </div>
         </div>
         <div className="relative group">
@@ -56,7 +59,7 @@ export const Hero = () => {
                     initial={{opacity:0, scale:0.5}}
                     whileInView={{opacity:1, scale:1}}
                     transition={{duration:1.4, delay:0}}
-          src={Profile} alt="" className='rounded-full border border-blue-600 md:w-[450px] w-[300px]  shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500' />
+          src={Profile} alt="" className='rounded-full border border-blue-500 md:w-[450px] w-[300px]  shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-400' />
         </div>
       </div>
     </section>
