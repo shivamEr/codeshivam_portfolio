@@ -1,5 +1,5 @@
 import React from 'react'
-import bharatmeet from '../assets/BharatMeet.png'
+import bharatmeet from '../assets/bharatMeet.png'
 import portfolio from '../assets/portfolio.png'
 
 const projects = [
