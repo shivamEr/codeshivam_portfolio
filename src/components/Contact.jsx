@@ -16,7 +16,7 @@ export const Contact = () => {
                             <p className='text-gray-300 my-5'>Have a project in mind, want to collaborate, or just want to say hi? I'm always open to meaningful conversations. <br />Let’s build something amazing together!</p>
                             <h3 className='text-gray-300 text-2xl font-semibold'>Email</h3>
                             <p className='text-gray-600 mt-2'>
-                                <a href="mailto:shivamksbau504@gmail.com" className='text-blue-500 hover:underline'>shivamksbau504@gmail.com</a>
+                                <a href="mailto:shivamksbau504@gmail.com" className='text-blue-500 hover:underline'>codeshivam.dev@gmail.com</a>
                             </p>
                         </div>
                         <div>

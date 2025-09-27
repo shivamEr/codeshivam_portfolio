@@ -41,7 +41,7 @@ export const Hero = () => {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.4, delay: 0.5 }}
-            className="lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit maxime ea iusto asperiores cumque officia, neque dolorum laudantium pariatur ipsum enim libero, consequatur magnam.</motion.p>
+            className="lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300">MERN Stack Developer with expertise in scalable web apps, Generative AI, real-time communication, and 500+ DSA problems solved.</motion.p>
           <motion.button
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}

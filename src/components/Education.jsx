@@ -2,44 +2,52 @@ import React from 'react'
 
 const education = [
   {
-    degree: "Bachelor of Technology (BTech)",
-    institution: "Geeta University",
+    degree: "Bachelor of Technology (B.Tech) in Computer Science",
+    institution: "Geeta University, Panipat, Haryana",
     year: "2022 - 2026",
-    description: "Graduated with a strong foundation in critical thinking and problem-solving.",
+    description: "Currently pursuing B.Tech in Computer Science with a CGPA of 8.0/10.",
     icon: "🎓",
   },
   {
-    degree: "Higher Secondary (11th-12th) ",
-    institution: "Inter Collage Dindyalpur",
+    degree: "Higher Secondary (12th)",
+    institution: "Inter College Dindyalpur",
     year: "2019 - 2021",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Vel molestiae.",
+    description: "Completed Higher Secondary education with a focus on Science and Mathematics.",
     icon: "🎓",
   },
   {
     degree: "Secondary (10th)",
-    institution: "High school Dindyalpur",
-    year: "2019",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Vel molestiae.",
+    institution: "High School Dindyalpur",
+    year: "2018 - 2019",
+    description: "Completed Secondary education, building a strong foundation in academics.",
     icon: "🎓",
   },
 ];
 
 const experience = [
   {
-    role: "Web Designing",
-    company: "Solitaire Infosys",
-    year: "Jun 2023 - Aug 2023",
-    description: "Founded a digital marketing and web development agency, delivering tailored solutions.",
-    icon: "💼",
-  },
-  {
-    role: "MERN Stack Developer (Intern)",
-    company: "Company Name",
-    year: "2025",
-    description: "Developed and optimized MERN stack applications, enhancing user experience.",
+    role: "Full-Stack Developer Intern (MERN Stack)",
+    company: "Coding Blocks, Geeta University",
+    year: "Jun 2025 - August 2025",
+    description: "Contributed to web application development using MongoDB, Express.js, React, and Node.js. Developed RESTful APIs, implemented authentication, and built responsive UI components.",
     icon: "💻",
   },
+  {
+    role: "DSA Trainee",
+    company: "Coding Blocks, Geeta University",
+    year: "Jun 2024 - Aug 2024",
+    description: "Solved 500+ algorithmic problems across LeetCode, GFG, and HackerRank. Built strong skills in dynamic programming, graph algorithms, and writing optimized code.",
+    icon: "📘",
+  },
+  {
+    role: "Web Developer Intern",
+    company: "Solitaire Infosys Inc, Mohali, Punjab",
+    year: "Jun 2023 - Aug 2023",
+    description: "Developed and maintained responsive UIs using HTML, CSS, and JavaScript. Improved performance and user engagement by reducing load time by 15%.",
+    icon: "💼",
+  },
 ];
+
 
 export const Education = () => {
   return (

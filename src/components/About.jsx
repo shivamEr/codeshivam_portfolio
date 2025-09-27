@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile.jpg'
+import profile from '../assets/office.png'
 import { FaChevronRight } from 'react-icons/fa'
 
 export const About = () => {
@@ -14,17 +14,35 @@ export const About = () => {
           </div>
           {/* paragraph section */}
           <div className='p-5 md:p-10 bg-gray-950 rounded-md shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
-            <p className='text-lg leading-7 mb-6'>Hi! I'm Shivam Singh, a passionate Full-Stack Developer with expertise in the MERN stack, WordPress, and SEO. With a strong foundation in modern web development and an eye for detail, I create elegant, user-friendly web solutions tailored to meet client needs.</p>
-            <p className='text-lg leading-7 mb-6'>My journey into tech began from a passion, and I've embraced every challenge to hone my skills in development, problem-solving, and teamwork. I’m always eager to learn and explore new technologies to deliver cutting-edge web experiences.</p>
+            <p className='text-lg leading-7 mb-6'>
+              Hi! I'm Shivam Kumar, a Full-Stack Developer with a strong focus on the MERN stack. I enjoy building clean, scalable applications and have sharpened my problem-solving skills by solving 500+ DSA problems on platforms like LeetCode, GFG, and HackerRank.
+            </p>
+            <p className='text-lg leading-7 mb-6'>
+              I’ve worked on projects such as <i>BharatMeet</i>, a real-time meeting platform, and <i>iNotebook</i>, a secure notes manager, which gave me hands-on experience in creating responsive frontends and reliable backends. During my internships at Coding Blocks and Solitaire Infosys, I contributed to developing web applications, APIs, and user-friendly interfaces while collaborating with teams.
+            </p>
+            <p className='text-lg leading-7 mb-6'>
+              Currently pursuing a B.Tech in Computer Science, I’m always looking to improve my skills and explore new tools to deliver impactful web solutions.
+            </p>
+
             <div className='mt-5'>
               <h1 className='font-bold text-2xl mb-5 text-blue-400'>My Skills</h1>
               <div className='flex flex-wrap gap-4 mb-5 text-sm'>
-                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>React</p>
-                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Express Js</p>
-                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Tailwind Css</p>
-                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Redux</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>React.js</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Next.js</p>
                 <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Node.js</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Express.js</p>
                 <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>MongoDB</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>MySQL</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>JavaScript</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>C++</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Python</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Tailwind CSS</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Bootstrap</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>REST APIs</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Git & GitHub</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>JWT Auth</p>
+                <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>WebSockets</p>
+
               </div>
               <button className='px-3 py-1 rounded-md bg-blue-500 text-white flex items-center gap-1'>Contact<FaChevronRight /></button>
             </div>
