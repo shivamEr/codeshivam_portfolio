@@ -51,16 +51,16 @@ export const Hero = () => {
       {/* Stars */}
       {isDarkMode && (
         <div>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
+          <span className="star"></span>
         </div>
       )}
       <div className="max-w-7xl mt-24 mx-auto items-center flex flex-col md:flex-row gap-16 md:gap-40 justify-between relative z-10">
