@@ -91,7 +91,7 @@ export const Hero = () => {
             transition={{ duration: 1.4, delay: 0.5 }}
             className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]'><MdOutlineFileDownload className='w-5 h-5' /><a href={resume} target='_blank'> Download CV </a></motion.button>
           <div className="flex gap-3 text-2xl transition-all mt-5 md:mt-0">
-            <a href="https://github.com/shivamEr" className={`hover:text-blue-400 transition-colors ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}><FaGithub /></a>
+            <a href="https://github.com/codeshivam-dev" className={`hover:text-blue-400 transition-colors ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}><FaGithub /></a>
             <a href="https://www.linkedin.com/in/code-shivam" className={`hover:text-blue-400 transition-colors ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}><FaLinkedin /></a>
             <a href="https://leetcode.com/u/code-shivam" className={`hover:text-blue-400 transition-colors ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}><SiLeetcode /></a>
             <a href="https://x.com/codeXshivam" className={`hover:text-blue-400 transition-colors ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}><FaSquareXTwitter /></a>

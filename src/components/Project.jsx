@@ -11,16 +11,25 @@ const projects = [
             "A full-stack web application that allows users to create and join public or private real-time meetings with messaging, video chat, screen sharing, and file sharing.",
         techStack: ["ReactJS", "MongoDB", "WebSocket", "WebRTC", "Tailwind CSS"],
         link: "https://bharatmeet-zeta.vercel.app/",
-        github: 'https://github.com/shivamEr/BharatMeet',
+        github: 'https://github.com/codeshivam-dev/BharatMeet',
         image: bharatmeet,
     },
+//     {
+//     title: "FoodVision",
+//     description:
+//         "An AI-powered mobile diet planner that generates personalized meal plans and tracks macros. It moves away from generic advice to provide goal-based nutrition guidance using an interactive AI chat interface.",
+//     techStack: ["React Native", "Expo", "Gemini API", "Firebase", "Tailwind Native"],
+//     link: "https://expo.dev/@yourusername/foodvision", // Replace with your actual Expo link or App Store link
+//     github: "https://github.com/codeshivam-dev/FoodVision-App",
+//     image: foodvision, // Ensure you import this image at the top of your file
+// },
     {
         title: "Portfolio",
         description:
             "About This portfolio website is built using Tailwind CSS for sleek and responsive design, combined with Framer Motion for smooth animations and modern UI transitions.",
         techStack: ["React", "TailwindCSS", "Framer Motion", "Vite"],
         link: "https://codeshivam.vercel.app/",
-        github: 'https://github.com/shivamEr/codeshivam_portfolio',
+        github: 'https://github.com/codeshivam-dev/codeshivam_portfolio',
         image: portfolio,
     },
     {
@@ -29,18 +38,18 @@ const projects = [
             "A MERN-based personal notes manager with secure JWT authentication and encrypted CRUD operations for organizing notes safely and efficiently with a DarkMode features.",
         techStack: ["React", "Node.js", "MongoDB", "ShadCn UI"],
         link: "https://i-notebook-3pxp.vercel.app/",
-        github: 'https://github.com/shivamEr/iNotebook',
+        github: 'https://github.com/codeshivam-dev/iNotebook',
         image: inotebook,
     },
-    // {
-    //     title: "NewsAlexa",
-    //     description:
-    //         "NewsAlexa is a React-based news app that provides the latest news across various categories like technology, sports, business, and entertainment. With real-time updates and a user-friendly interface, NewsAlexa helps users stay informed on current events.",
-    //     techStack: ["React.js", "REST API", "BootStrap"],
-    //     link: "https://clothify-two.vercel.app/",
-    //     github: 'https://github.com/shivamEr/NewsAlexa',
-    //     image: portfolio,
-    // },
+//     {
+//     title: "Linkatry",
+//     description:
+//         "A professional 'link-in-bio' platform designed for developers to manage their digital presence. Includes a customizable profile builder, real-time link click analytics, and secure authentication to help builders track their audience growth.",
+//     techStack: ["Next.js 15", "TypeScript", "Clerk Auth", "Prisma", "Tailwind CSS", "PostgreSQL", "Shadcn UI"],
+//     link: "https://linkatry.com", 
+//     github: "https://github.com/codeshivam-dev/Linkantry",
+//     image: linkatry, 
+// },
 
 ];
 

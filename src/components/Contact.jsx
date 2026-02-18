@@ -45,7 +45,7 @@ export const Contact = () => {
                         <div>
                             <h3 className={`text-2xl font-semibold ${isDarkMode ? 'text-gray-300' : 'text-gray-900'}`}>Follow Me</h3>
                             <div className='flex gap-3 mt-5 text-2xl transition-all'>
-                                <a href="https://github.com/shivamEr" className='text-blue-400 hover:text-blue-600 transition-colors'><FaGithub /></a>
+                                <a href="https://github.com/codeshivam-dev" className='text-blue-400 hover:text-blue-600 transition-colors'><FaGithub /></a>
                                 <a href="https://www.linkedin.com/in/code-shivam" className='text-blue-400 hover:text-blue-600 transition-colors'><FaLinkedin /></a>
                                 <a href="https://leetcode.com/u/code-shivam" className='text-blue-400 hover:text-blue-600 transition-colors'><SiLeetcode /></a>
                                 <a href="https://x.com/codeXshivam" className='text-blue-400 hover:text-blue-600 transition-colors'><FaSquareXTwitter /></a>

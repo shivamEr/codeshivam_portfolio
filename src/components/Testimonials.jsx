@@ -21,7 +21,7 @@ const Testimonials = () => {
     },
     {
       name: 'Harish Verma',
-      role: 'CTO at StartupXYZ',
+      role: 'Founder of Just1RupeeJobs',
       content: 'Shivam\'s expertise in MERN stack helped us scale our application efficiently. Highly recommended!',
       avatar: 'https://via.placeholder.com/60'
     }
